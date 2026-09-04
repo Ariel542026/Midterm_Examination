@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Homepage</title>
-    <link rel="stylesheet" href="/BOOTSTRAP/bootstrap.min.css" />
-    <link rel="stylesheet" href="/Style/style.css" />
+    <link rel="stylesheet" href="BOOTSTRAP/bootstrap.min.css" />
+    <link rel="stylesheet" href="Style/style.css" />
   </head>
   <body>
     <nav class="navbar sticky-top navbar-expand">
@@ -21,12 +21,11 @@
     </nav>
 
     <div class="container">
-
-        <!--HOME-->
+      <!--HOME-->
       <section id="home">
         <div class="welcome">
           <h1>Welcome to My Website</h1>
-          <p>Hello! I'm Your Name.</p>
+          <p>Ariel John Brizuela</p>
         </div>
 
         <!-- bottom box -->
@@ -48,7 +47,7 @@
             <div class="side-box">
               <h3>Quick Links</h3>
 
-              <a href="#about">About Me</a>
+              <a href="#about_me">About Me</a>
               <a href="#gallery">Gallery</a>
               <a href="#mission">Mission / Vision</a>
             </div>
@@ -67,7 +66,7 @@
           <div class="col-md-5">
             <div class="about-image-box">
               <img
-                src="images/profile.jpeg"
+                src="Images/profile.jpeg"
                 class="img-fluid"
                 alt="My Profile Picture"
               />
@@ -136,9 +135,7 @@
           <div class="col-md-4">
             <div class="card">
               <img
-                src="/Images/1.jpg"
-                alt="An image of me doing a peace sign"
-              />
+                src="Images/1.jpg" class="card-img-top" alt="An image of me doing a peace sign"/>
 
               <div class="card-body">
                 <h5 class="card-title">SOUTWOOD</h5>
@@ -148,7 +145,7 @@
 
           <div class="col-md-4">
             <div class="card">
-              <img src="/Images/2.jpg" alt="Duathlon Finisher" />
+              <img src="Images/2.jpg" class="card-img-top" alt="Duathlon Finisher" />
 
               <div class="card-body">
                 <h5 class="card-title">Duathlon Finisher</h5>
@@ -158,7 +155,7 @@
 
           <div class="col-md-4">
             <div class="card">
-              <img src="/Images/3.jpg" alt="Ongoing Race" />
+              <img src="Images/3.jpg" class="card-img-top" alt="Ongoing Race" />
 
               <div class="card-body">
                 <h5 class="card-title">Ongoing Race</h5>
@@ -168,7 +165,7 @@
 
           <div class="col-md-4">
             <div class="card">
-              <img src="/Images/4.jpg" alt="Number tags" />
+              <img src="Images/4.jpg" class="card-img-top" alt="Number tags" />
 
               <div class="card-body">
                 <h5 class="card-title">Race Tag</h5>
@@ -178,7 +175,7 @@
 
           <div class="col-md-4">
             <div class="card">
-              <img src="/Images/5.jpg" alt="During Training" />
+              <img src="Images/5.jpg" class="card-img-top" alt="During Training" />
 
               <div class="card-body">
                 <h5 class="card-title">Practical Combat Reserve Exam</h5>
@@ -188,7 +185,7 @@
 
           <div class="col-md-4">
             <div class="card">
-              <img src="/Images/profile.jpeg" alt="Davao Iron Man" />
+              <img src="Images/profile.jpeg" class="card-img-top" alt="Davao Iron Man" />
 
               <div class="card-body">
                 <h5 class="card-title">Davao Iron Man</h5>
@@ -203,24 +200,33 @@
       <section id="mission">
         <div class="row">
           <div class="col-md-6">
-            <h2>Mission</h2>
 
-            <p>
-              An institution of higher learning committed to equip. individuals
-              with knowledge, skills and values that will enable them to achieve
-              professional goals& provide leadership and service for national
-              development.Core
-            </p>
+            <div class="mission-box">
+                <h2>Mission</h2>
+
+                <p>
+                 An institution of higher learning committed to equip. individuals
+                 with knowledge, skills and values that will enable them to achieve
+                 professional goals& provide leadership and service for national
+                 development.Core
+                </p>
+            </div>
+
           </div>
 
           <div class="col-md-6">
-            <h2>Vision</h2>
 
-            <p>
-              An institution of higher learning in Region IV, developing
-              globally-competitive and value-laden professionals and leaders
-              instrumental to community development and nation building.
-            </p>
+            <div class="vision-box">
+                <h2>Vision</h2>
+
+                <p>
+                An institution of higher learning in Region IV, developing
+                globally-competitive and value-laden professionals and leaders
+                instrumental to community development and nation building.
+                </p>
+
+            </div>
+            
           </div>
         </div>
       </section>
@@ -228,43 +234,23 @@
       <!--CONTACT-->
 
       <section id="contact">
-
         <h2>Contact</h2>
         <form>
           <div class="mb-3">
-            <label for="exampleInputEmail1" class="form-label"
-              >Email address</label
-            >
+            <label for="user_email" class="form-label">Email address</label>
             <input
               type="email"
               class="form-control"
-              id="exampleInputEmail1"
+              id="user_email"
               aria-describedby="emailHelp"
             />
-            <div id="emailHelp" class="form-text">
-              We'll never share your email with anyone else.
-            </div>
           </div>
+
           <div class="mb-3">
-            <label for="exampleInputPassword1" class="form-label"
-              >Password</label
-            >
-            <input
-              type="password"
-              class="form-control"
-              id="exampleInputPassword1"
-            />
+            <label for="suggestion" class="form-label">Suggestion</label>
+            <input type="text" class="form-control" id="suggestion" />
           </div>
-          <div class="mb-3 form-check">
-            <input
-              type="checkbox"
-              class="form-check-input"
-              id="exampleCheck1"
-            />
-            <label class="form-check-label" for="exampleCheck1"
-              >Check me out</label
-            >
-          </div>
+
           <button type="submit" class="btn btn-primary">Submit</button>
         </form>
       </section>
