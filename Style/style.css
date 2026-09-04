@@ -1,3 +1,33 @@
+
+body {
+    background-color: #353535;
+    color: #f9f9f9;
+    font-family: Arial, sans-serif;
+}
+
+section {
+    padding: 70px 0;
+}
+
+
+/* =========================  NAVBAR ========================= */
+
+.navbar {
+    background-color: #222;
+}
+
+.nav-link {
+    color: white;
+    margin-right: 15px;
+}
+
+.nav-link:hover {
+    color: #f4cb00;
+}
+
+
+/* =========================  HOME ========================= */
+
 #home {
     padding: 50px 0;
 }
@@ -5,20 +35,161 @@
 .welcome {
     padding: 40px;
     margin-bottom: 20px;
-    border: 1px solid white;
+    border: 1px solid #f4cb00;
     border-radius: 10px;
+    background-color: #000;
+    text-align: center;
 }
 
 .content-box {
     padding: 30px;
-    border: 1px solid white;
+    border: 1px solid #555;
     border-radius: 10px;
+    background-color: #000;
+    height: 100%;
 }
 
 .side-box {
     padding: 30px;
-    border: 1px solid white;
+    border: 1px solid #555;
+    border-radius: 10px;
+    background-color: #000;
+    height: 100%;
+}
+
+.side-box a {
+    display: block;
+    margin-top: 10px;
+    color: #f4cb00;
+    text-decoration: none;
+}
+
+.side-box a:hover {
+    color: white;
+}
+
+
+/* ========================= ABOUT ME ========================= */
+
+.about-title {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.about-image-box {
+    padding: 15px;
+    background-color: #606060;
+    border-radius: 10px;
+    border: 1px solid #555;
+}
+
+.about-image-box img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.about-info-box {
+    padding: 30px;
+    background-color: #000;
+    border: 1px solid #555;
     border-radius: 10px;
     height: 100%;
 }
 
+.interests-box {
+    margin-top: 30px;
+    padding: 30px;
+    background-color: #000;
+    border-radius: 10px;
+    border: 1px solid #555;
+}
+
+.interest-card {
+    padding: 20px;
+    margin-top: 20px;
+    background-color: #111;
+    border: 1px solid #555;
+    border-radius: 10px;
+    height: 100%;
+}
+
+
+/* ========================= GALLERY ========================= */
+
+#gallery h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.card {
+    margin-bottom: 25px;
+    background-color: #000;
+    color: white;
+    border: 1px solid #555;
+}
+
+.card-img-top {
+    height: 250px;
+    object-fit: cover;
+}
+
+
+/* ========================= MISSION / VISION ========================= */
+
+.mission-box,
+.vision-box {
+    padding: 30px;
+    background-color: #000;
+    border: 1px solid #555;
+    border-radius: 10px;
+    height: 100%;
+}
+
+
+/* ========================= CONTACT ========================= */
+
+#contact {
+    max-width: 700px;
+    margin: auto;
+}
+
+#contact h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#contact form {
+    padding: 30px;
+    background-color: #000;
+    border: 1px solid #555;
+    border-radius: 10px;
+}
+
+
+/* ========================= FORM ========================= */
+
+.form-control {
+    background-color: #222;
+    color: white;
+    border: 1px solid #555;
+}
+
+.form-control:focus {
+    background-color: #222;
+    color: white;
+    border-color: #f4cb00;
+}
+
+
+/* ========================= BUTTON ========================= */
+
+.btn-primary {
+    background-color: #f4cb00;
+    border-color: #f4cb00;
+    color: black;
+}
+
+.btn-primary:hover {
+    background-color: #d9b400;
+    border-color: #d9b400;
+}
