@@ -1,53 +1,273 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Homepage</title>
-    <link rel="stylesheet" href="/BOOTSTRAP/bootstrap.min.css">
-    <link rel="stylesheet" href="/Style/style.css">
-</head>
-<body>
-
+    <link rel="stylesheet" href="/BOOTSTRAP/bootstrap.min.css" />
+    <link rel="stylesheet" href="/Style/style.css" />
+  </head>
+  <body>
     <nav class="navbar sticky-top navbar-expand">
-        <div class="container">
-            <div class="navbar-nav">
-                <a href="#home" class="nav-link">Home</a>
-                <a href="#about" class="nav-link">About Me</a>
-                <a href="#gallery" class="nav-link">Gallery</a>
-                <a href="#mission" class="nav-link">Mission/Vision</a>
-                <a href="#contact" class="nav-link">Contact</a>
-            </div>
+      <div class="container">
+        <div class="navbar-nav">
+          <a href="#home" class="nav-link">Home</a>
+          <a href="#about_me" class="nav-link">About Me</a>
+          <a href="#gallery" class="nav-link">Gallery</a>
+          <a href="#mission" class="nav-link">Mission/Vision</a>
+          <a href="#contact" class="nav-link">Contact</a>
         </div>
+      </div>
     </nav>
 
     <div class="container">
 
-        <section id="home">
-            <h1>Home</h1>
+        <!--HOME-->
+      <section id="home">
+        <div class="welcome">
+          <h1>Welcome to My Website</h1>
+          <p>Hello! I'm Your Name.</p>
+        </div>
 
-        </section>
+        <!-- bottom box -->
+        <div class="row">
+          <!-- left box -->
+          <div class="col-md-8">
+            <div class="content-box">
+              <h2>About This Website</h2>
 
+              <p>
+                Welcome to my personal website! Here you can learn more about
+                me, explore my gallery, and discover my mission and vision.
+              </p>
+            </div>
+          </div>
 
-        <section id="about"> 
+          <!-- right box -->
+          <div class="col-md-4">
+            <div class="side-box">
+              <h3>Quick Links</h3>
 
-        </section>
+              <a href="#about">About Me</a>
+              <a href="#gallery">Gallery</a>
+              <a href="#mission">Mission / Vision</a>
+            </div>
+          </div>
+        </div>
+      </section>
 
+      <section id="about_me">
+        <div class="about-title">
+          <h1>About Me</h1>
+          <p>Get to know more about me.</p>
+        </div>
 
-        <section id="gallery">
+        <div class="row">
+          <!-- left side image -->
+          <div class="col-md-5">
+            <div class="about-image-box">
+              <img
+                src="images/profile.jpeg"
+                class="img-fluid"
+                alt="My Profile Picture"
+              />
+            </div>
+          </div>
 
-        </section>
+          <!-- RIGHT SIDE: INFORMATION -->
+          <div class="col-md-7">
+            <div class="about-info-box">
+              <h2>Hello! I'm Ariel John R. Brizuela</h2>
 
+              <p>
+                I am currently studying Computer Science. I am interested in
+                making games, learning new things, and improving my skills.
+              </p>
 
-         <section id="mission">
+              <hr />
 
-        </section>
+              <h3>Personal Information</h3>
 
+              <p><strong>Name:</strong> Ariel John Brizuela</p>
+              <p><strong>Age:</strong> 21</p>
+              <p><strong>Course:</strong> BSCS</p>
+            </div>
+          </div>
+        </div>
 
-         <section id="contact">
+        <div class="interests-box">
+          <h2>My Interests</h2>
 
-        </section>
+          <div class="row">
+            <div class="col-md-4">
+              <div class="interest-card">
+                <h3>GAMING</h3>
+
+                <p>I like playing Warhammer 40k</p>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="interest-card">
+                <h3>TRAILING</h3>
+
+                <p>I do trailing with my bike on weekends at filinvest</p>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="interest-card">
+                <h3>READING/DRAWING</h3>
+
+                <p>
+                  I read and and draw what I picture/imagine on what I read.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--GALLERY-->
+
+      <section id="gallery">
+        <h2>Gallery</h2>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card">
+              <img
+                src="/Images/1.jpg"
+                alt="An image of me doing a peace sign"
+              />
+
+              <div class="card-body">
+                <h5 class="card-title">SOUTWOOD</h5>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card">
+              <img src="/Images/2.jpg" alt="Duathlon Finisher" />
+
+              <div class="card-body">
+                <h5 class="card-title">Duathlon Finisher</h5>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card">
+              <img src="/Images/3.jpg" alt="Ongoing Race" />
+
+              <div class="card-body">
+                <h5 class="card-title">Ongoing Race</h5>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card">
+              <img src="/Images/4.jpg" alt="Number tags" />
+
+              <div class="card-body">
+                <h5 class="card-title">Race Tag</h5>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card">
+              <img src="/Images/5.jpg" alt="During Training" />
+
+              <div class="card-body">
+                <h5 class="card-title">Practical Combat Reserve Exam</h5>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card">
+              <img src="/Images/profile.jpeg" alt="Davao Iron Man" />
+
+              <div class="card-body">
+                <h5 class="card-title">Davao Iron Man</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--MISSION/VISION-->
+
+      <section id="mission">
+        <div class="row">
+          <div class="col-md-6">
+            <h2>Mission</h2>
+
+            <p>
+              An institution of higher learning committed to equip. individuals
+              with knowledge, skills and values that will enable them to achieve
+              professional goals& provide leadership and service for national
+              development.Core
+            </p>
+          </div>
+
+          <div class="col-md-6">
+            <h2>Vision</h2>
+
+            <p>
+              An institution of higher learning in Region IV, developing
+              globally-competitive and value-laden professionals and leaders
+              instrumental to community development and nation building.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!--CONTACT-->
+
+      <section id="contact">
+
+        <h2>Contact</h2>
+        <form>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label"
+              >Email address</label
+            >
+            <input
+              type="email"
+              class="form-control"
+              id="exampleInputEmail1"
+              aria-describedby="emailHelp"
+            />
+            <div id="emailHelp" class="form-text">
+              We'll never share your email with anyone else.
+            </div>
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label"
+              >Password</label
+            >
+            <input
+              type="password"
+              class="form-control"
+              id="exampleInputPassword1"
+            />
+          </div>
+          <div class="mb-3 form-check">
+            <input
+              type="checkbox"
+              class="form-check-input"
+              id="exampleCheck1"
+            />
+            <label class="form-check-label" for="exampleCheck1"
+              >Check me out</label
+            >
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </section>
     </div>
-    
-</body>
+  </body>
 </html>

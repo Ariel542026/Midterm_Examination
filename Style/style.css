@@ -1,0 +1,24 @@
+#home {
+    padding: 50px 0;
+}
+
+.welcome {
+    padding: 40px;
+    margin-bottom: 20px;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+.content-box {
+    padding: 30px;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+.side-box {
+    padding: 30px;
+    border: 1px solid white;
+    border-radius: 10px;
+    height: 100%;
+}
+
